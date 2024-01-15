@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management System</title>
+    <!-- Add Bootstrap CSS link here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add your custom CSS file -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Book Management System</h2>
+
+        <!-- Include the HTML files for each function -->
+        <div id="content"></div>
+
+        <hr>
+
+        <!-- Display the list of books -->
+        <div id="bookList" class="mt-4"></div>
+
+        <!-- Add New Book Button -->
+        <a href="/component/addNewBook.html" class="btn btn-primary mt-4">Add New Book</a>
+    </div>
+
+    </div>
+
+    <!-- Add Bootstrap JS and Popper.js (if needed) -->
+    <!-- Add Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="/js/app.js" defer></script>
+    <script src="/js/updateBook.js" defer></script>
+
+</body>
+
+</html>
